@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+
+# Sync-tool junk (synced folders such as Syncthing/Dropbox)
+.stfolder
+.stversions
+.stignore*
+*.sync-conflict-*
+
+# Local backups (scripts/backup-memory.sh default destination 2)
+backups/
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# Claude Code per-user local settings
+.claude/settings.local.json
+
+# Hook scratch state (counters, snapshots, last green test run) — local only
+.claude/state/
